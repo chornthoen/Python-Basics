@@ -14,7 +14,7 @@ class Student(Person):
         print("ID =", self.id, " ,Name =", self.name, ",Year =", self.year)
 
 
-student = Student(1, "dara", 2)
+student = Student(1, "dara",3)
 student.Display()
 
 
