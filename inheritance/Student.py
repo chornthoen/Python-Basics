@@ -1,4 +1,4 @@
-from Inheritance.Person import Person
+from inheritance.Person import Person
 
 
 class Student(Person):
