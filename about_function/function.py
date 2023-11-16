@@ -27,7 +27,6 @@ display()
 student("Dara", 18, 'M')
 
 
-
 def my_function(fname: str):
     print(fname + " Refsnes")
 
@@ -45,6 +44,7 @@ default_para_fun("Sweden")
 default_para_fun("India")
 default_para_fun()
 
+
 # Return values
 def return_value_fun(x):
     return 5 * x
@@ -52,6 +52,7 @@ def return_value_fun(x):
 
 result = return_value_fun(10)
 print(result)
+
 
 # Keyword arguments
 
@@ -86,4 +87,3 @@ def passing_list_as_argument_fun(food):
 
 
 fruits = ["apple", "banana", "cherry"]
-

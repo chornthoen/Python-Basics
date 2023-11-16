@@ -1,15 +1,15 @@
 class Student:
-    def __init__(self ,id ,name,group,year):
-        self.id=id
-        self.name=name
-        self.group=group
-        self.year=year
+    def __init__(self, id, name, group, year):
+        self.id = id
+        self.name = name
+        self.group = group
+        self.year = year
 
     def display(self):
-        print("ID =",self.id,"Name =",self.name,",Group =",self.group,",Year = ",self.year)
+        print("ID =", self.id, "Name =", self.name, ",Group =", self.group, ",Year = ", self.year)
 
 
-student = Student(101,"Chorn Thoen","A5",2)
+student = Student(101, "Chorn Thoen", "A5", 2)
 student.display()
 
 # class Triangle:
