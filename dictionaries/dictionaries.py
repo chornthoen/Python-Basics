@@ -1,4 +1,3 @@
-
 car = {
     "brand": "Ford",
     "model": "Mustang",
@@ -54,10 +53,8 @@ cars["price"] = "100000$"
 print(car)
 print(cars)
 
-
 car2 = dict(car)
 print(car2)
-
 
 # nested dictionary
 print()
@@ -95,8 +92,3 @@ set1.remove("banana")
 print(set1)
 set1.discard("grapes")
 print(set1)
-
-
-
-
-
